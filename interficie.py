@@ -58,3 +58,21 @@ def mostrar_panell_estadistiques(stats):
     print("\n📊 ESTADÍSTIQUES DEL CIRCUIT:")
     print(f"  • Total bars: {stats['num_bars']} | Tapes venudes: {stats['total_tapes']}")
     print(f"  • Preu mitjà: {stats['preu_mitja']:.2f}€ | Més popular: {stats['bar_popular']}")
+
+def mostrar_error_zona(zona):
+    print(f"❌ No s'ha trobat cap bar a '{zona}'.")
+
+def mostrar_error_inexistente():
+    print("❌ No existeix aquest bar.")
+
+def mostrar_error_aforament():
+    print(MSG_ERROR_AFORAMENT)
+
+def mostrar_error_opcio():
+    print(MSG_OPCIO_INVALIDA)
+
+def mostrar_comiat():
+    print(f"\nGràcies per utilitzar {NOM_ESDEVENIMENT}. Fins aviat!")
+
+def mostrar_avis(missatge):
+    print(missatge)

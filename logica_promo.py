@@ -1,6 +1,7 @@
 import config 
 import dades_bars
 
+inventari_bars = dades_bars.inventari_bars
 
 def obtenir_tots_els_bars():
     return inventari_bars
